@@ -1,0 +1,38 @@
+A. Write a Python program that implements gradient descent for minimizing
+the least squares loss. As a stopping condition check for the objective
+between the current and previous iteration. If the objective improves
+by less than theta then you stop. The input and output should be the same 
+as for Naive-Bayes. 
+
+Test your program with the input data
+
+0 0
+0 1
+1 0
+1 1
+10 10
+10 11
+11 10
+11 11
+
+and labels 
+
+0 0
+0 1
+0 2
+0 3
+1 4
+1 5
+1 6
+1 7
+
+Use eta=.001 and stopping condition of .001. 
+
+Compute vector [w1, w2] and its distance to origin
+
+Your assignment is due Oct 3 2018.
+
+Submit your assignment by copying it into the directory
+/afs/cad/courses/ccs/f18/cs/675/101/<ucid>.
+For example if your ucid is abc12 then copy your solution into 
+/afs/cad/courses/ccs/f18/cs/675/101/abc12.
